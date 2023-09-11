@@ -55,7 +55,7 @@ Car car;
             mailMessage.setRecipient(Message.RecipientType.TO, new InternetAddress("nitishking01@gmail.com"));
 
 
-            mailMessage.setText(car.colour);
+            mailMessage.setText(car.brand);
 
             Transport.send(mailMessage);
 
